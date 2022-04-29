@@ -13,6 +13,8 @@ Rails.logger.info "------------------------"
 
 # - Insert, read, and update company data in database
 
+puts "There are #{Company.all.count} companies."
+
 # 1a. check out the schema file
 # 1b. check out the model file
 
@@ -20,6 +22,7 @@ Rails.logger.info "------------------------"
 
 # Number of rows in companies table
 puts "companies: #{Company.all.count}" # companies: 0
+
 
 # 2. insert new rows in companies table
 
